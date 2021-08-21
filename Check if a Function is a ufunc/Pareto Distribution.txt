@@ -1,0 +1,9 @@
+from numpy import random
+
+x = random.pareto(a=2, size=(2, 3))
+
+print(x)
+
+
+[[1.7670505  0.28911115 0.34454719]
+ [0.38490144 0.57407354 0.55850398]]
